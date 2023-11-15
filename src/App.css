@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.list {
+	padding: 0;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+
+.list-item {
+	color: white;
+	margin-top: 1%;
+	list-style-type: none;
+	padding: 1%;
+}
+
+.list-item:nth-child(odd) {
+	background-image: linear-gradient(to right, rgb(25, 70, 111), rgb(50, 96, 247), rgb(86, 166, 239));
+}
+
+.list-item:nth-child(even) {
+	background-image: linear-gradient(to right, rgb(254, 95, 197), rgb(242, 54, 148), rgb(84, 20, 46));
+}
+
+.list-item:hover {
+	background-image: linear-gradient(to right, rgb(0, 110, 35), rgb(0, 212, 56), rgb(0, 110, 35));
+}
+
+.list-btn {
+	transition: all 0.1s linear;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.list-btn:hover {
+	background-color: red;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+body {
+	position: relative;
+	background-image: url('abstract-futuristic-background-with-3d-design.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+}
+
+#copyright {
+	position: fixed;
+	width: 99%;
+	bottom: 0%;
+	color: gray;
+	font-size: 14px;
+	text-align: center;
+}
